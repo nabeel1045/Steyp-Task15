@@ -19,6 +19,7 @@ del {
     text-decoration: line-through;
 }
 body {
+    font-family: "Inter", Arial;
     font-size: 17px;
     color: #fff;
     overflow-x: hidden;
@@ -51,7 +52,7 @@ a:hover,
 p {
     line-height: 1.6em;
     font-size: 16px;
-    font-family: "GT-Eesti", Arial;
+    font-family: "Inter", Arial;
     font-weight: 400;
     color: #000;
 }
@@ -63,9 +64,8 @@ br.clear {
     line-height: 0;
 }
 .wrapper {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
-    max-width: 1440px;
 }
 ::placeholder {
     color: #c0ccda;
@@ -79,6 +79,87 @@ br.clear {
 ::-ms-input-placeholder {
     color: #c0ccda;
 }
+@font-face {
+    font-family: "Island Moments";
+    src: url("../fonts/IslandMoments-Regular.woff2") format("woff2"),
+        url("../fonts/IslandMoments-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Black.woff2") format("woff2"), url("../fonts/Inter-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-ExtraBold.woff2") format("woff2"), url("../fonts/Inter-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Bold.woff2") format("woff2"), url("../fonts/Inter-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Regular.woff2") format("woff2"), url("../fonts/Inter-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Thin.woff2") format("woff2"), url("../fonts/Inter-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-ExtraLight.woff2") format("woff2"), url("../fonts/Inter-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("Inter-Medium.woff2") format("woff2"), url("Inter-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-Light.woff2") format("woff2"), url("../fonts/Inter-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("../fonts/Inter-SemiBold.woff2") format("woff2"), url("../fonts/Inter-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
 header {
     margin: 0 auto;
     width: 80%;
@@ -99,28 +180,217 @@ header section.top div.left ul {
 header section.top div.left ul li {
     margin-right: 30px;
 }
+header section.top div.left ul li a:hover {
+    color: #5ca26e;
+}
+header section.top div.left ul li:last-child {
+    margin-right: 0;
+}
 header section.top div.left ul li a {
 }
 header section.top div.right {
+    margin-right: 55px;
 }
 header section.top div.right p {
     font-size: 13px;
 }
-header section.contact {
+
+section.contact {
+    display: flex;
+    justify-content: space-between;
 }
-header section.contact ul {
+section.contact div.information {
+    display: flex;
 }
-header section.contact ul li {
+section.contact div.information div {
+    display: flex;
+    align-items: center;
+    margin-right: 15px;
 }
-header section.contact ul li a {
+section.contact div.information div.first div.left {
 }
-header section.contact ul li a img {
+section.contact div.information div img {
+    width: 100%;
+    display: block;
 }
-header section.contact ul li a h1 {
+section.contact div.information div.right {
+    margin-left: 10px;
 }
-header section.contact ul li a h2 {
+section.contact div.information div.first div.right a {
 }
-header section.contact div.search {
+section.contact div.information div h1 {
+    color: #8e8e8e;
+    font-size: 15px;
+    line-height: 1.9;
 }
-header section.contact div.search a {
+section.contact div.information div h2 {
+    font-size: 13px;
+    font-weight: bold;
+}
+header section.contact div.information div.second {
+}
+header section.contact div.information div.second div.left {
+}
+header section.contact div.information div.second div.left a {
+}
+header section.contact div.information div.second div.left a img {
+}
+header section.contact div.information div.second div.right {
+}
+header section.contact div.information div.second div.right a {
+}
+header section.contact div.information div.second div.r1pxight a h1 {
+}
+header section.contact div.information div.second div.right a h2 {
+}
+header section.contact div.information div.therd {
+}
+header section.contact div.information div.therd div.left {
+}
+header section.contact div.information div.therd div.left a {
+}
+header section.contact div.information div.therd div.left a img {
+}
+section.contact div.information div.therd div.right {
+    margin-right: 0;
+}
+header section.contact div.information div.therd div.right a {
+}
+header section.contact div.information div.therd div.right a h1 {
+}
+header section.contact div.information div.therd div.right a h2 {
+}
+section.contact .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+section.contact div.search a {
+    font-size: 14px;
+}
+
+#spotlight_header {
+    padding-top: 70px;
+}
+#spotlight_header div.contant {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#spotlight_header div.contant div.left {
+}
+#spotlight_header div.contant div.left h1 {
+}
+#spotlight_header div.contant div.left h1 a {
+    color: #5ca26e;
+    font-size: 25px;
+    font-weight: 500;
+}
+#spotlight_header div.contant div.middle {
+}
+#spotlight_header div.contant div.middle ul {
+    display: flex;
+    margin-left: 350px;
+    font-size: 15px;
+}
+#spotlight_header div.contant div.middle ul li {
+    color: #000;
+    margin-right: 20px;
+    font-weight: bold;
+}
+#spotlight_header div.contant div.middle ul li a:hover {
+    border-top: 2px solid #000;
+}
+#spotlight_header div.contant div.middle ul li:last-child {
+    margin-right: 0;
+}
+#spotlight_header div.contant div.middle ul li a {
+}
+#spotlight_header div.contant div.right {
+    display: flex;
+}
+#spotlight_header div.contant div.right h1 {
+    font-size: 14px;
+}
+#spotlight_header div.contant div.right h1 a {
+}
+#spotlight_header div.contant div.right .cart {
+    margin-left: 15px;
+    width: 24%;
+}
+#spotlight_header div.contant div.right .cart img {
+    display: block;
+    width: 100%;
+}
+
+#spotlight_header div.spotlight {
+    padding: 150px 100px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+#spotlight_header div.spotlight div.left {
+    width: 63%;
+    background-image: url(../images/Landing-img-1.jpg);
+    /* background-repeat: no-repeat; */
+    height: 48vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#spotlight_header div.spotlight div.left h1 {
+    font-family: "Island Moments";
+    color: #5ca26e;
+    font-size: 40px;
+}
+#spotlight_header div.spotlight div.left h2 {
+    color: #000;
+    font-size: 56px;
+    font-weight: 600;
+}
+#spotlight_header div.spotlight div.left span {
+    /* border-bottom: 1px solid #539d72; */
+}
+#spotlight_header div.spotlight div.left h3 {
+    color: #000;
+    font-weight: 600;
+    font-size: 45px;
+    position: relative;
+    padding-left: 97px;
+}
+#spotlight_header div.spotlight div.left h3::before {
+    content: "";
+    position: absolute;
+    top: 25px;
+    left: 2px;
+    height: 5px;
+    width: 92px;
+    background: #539d72;
+}
+#spotlight_header div.spotlight div.left p {
+    width: 44%;
+    margin-top: 20px;
+    color: #8e8e8e;
+    margin-bottom: 40px;
+}
+#spotlight_header div.spotlight div.left a.button {
+    background-color: #539d72;
+    color: #fff;
+    padding: 15px 25px;
+    font-size: 14px;
+}
+#spotlight_header div.spotlight div.right {
+    width: 40%;
+    background-image: url(../images/Landing-img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+#spotlight_header div.spotlight div.right h1 {
+    color: #fcde7a;
+    padding: 50px;
+    font-size: 57px;
+    font-weight: 600;
 }
