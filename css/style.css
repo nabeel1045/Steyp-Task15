@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+    background: transparent;
+    font-weight: normal;
+    text-decoration: none;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ol,
+ul {
+    list-style: none;
+}
+del {
+    text-decoration: line-through;
+}
+body {
+    font-size: 17px;
+    color: #fff;
+    overflow-x: hidden;
+    min-width: 320px;
+    font-weight: 400;
+}
+input,
+textarea,
+select {
+    font-weight: 400;
+}
+
+a {
+    color: #1c2c40;
+}
+a:hover,
+.submit:hover {
+    filter: alpha(opacity = 85);
+    -moz-opacity: 0.85;
+    -khtml-opacity: 0.85;
+    opacity: 0.85;
+}
+.thumb {
+    display: block;
+}
+.thumb img {
+    display: block;
+    width: 100%;
+}
+p {
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: "GT-Eesti", Arial;
+    font-weight: 400;
+    color: #000;
+}
+.hidden {
+    display: none;
+}
+br.clear {
+    clear: both;
+    line-height: 0;
+}
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 1440px;
+}
+::placeholder {
+    color: #c0ccda;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #c0ccda;
+}
+
+::-ms-input-placeholder {
+    color: #c0ccda;
+}
+header {
+    margin: 0 auto;
+    width: 80%;
+    height: 100px;
+}
+header section.top {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    align-items: center;
+}
+header section.top div.left {
+}
+header section.top div.left ul {
+    display: flex;
+    font-size: 15px;
+}
+header section.top div.left ul li {
+    margin-right: 30px;
+}
+header section.top div.left ul li a {
+}
+header section.top div.right {
+}
+header section.top div.right p {
+    font-size: 13px;
+}
+header section.contact {
+}
+header section.contact ul {
+}
+header section.contact ul li {
+}
+header section.contact ul li a {
+}
+header section.contact ul li a img {
+}
+header section.contact ul li a h1 {
+}
+header section.contact ul li a h2 {
+}
+header section.contact div.search {
+}
+header section.contact div.search a {
+}
