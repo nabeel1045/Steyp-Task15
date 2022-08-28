@@ -21,7 +21,6 @@ del {
 body {
     font-family: "Inter", Arial;
     font-size: 17px;
-    color: #fff;
     overflow-x: hidden;
     min-width: 320px;
     font-weight: 400;
@@ -420,13 +419,14 @@ section.contact div.search a {
     margin-bottom: 50px;
 }
 #category div.heading div.left {
+    padding: 10px;
+    border-left: 2px solid #000;
 }
 #category div.heading div.left h1 {
     color: #000;
     font-size: 35px;
     font-weight: bold;
-    margin-bottom: 60px;
-    border-left: 2px solid;
+    /* margin-bottom: 60px; */
 }
 #category div.heading div.right {
 }
@@ -460,100 +460,59 @@ section.contact div.search a {
     margin-top: 15px;
 }
 
-#sales {
+#brand {
     padding-top: 100px;
 }
-#sales section.main {
-    position: relative;
-}
-#sales section.main div.top {
+#brand ul {
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    width: 75%;
 }
-#sales section.main div.top div.left {
+#brand ul li {
 }
-#sales section.main div.top div.left div.product {
+#brand ul li a {
+    display: inline-block;
+    width: 150px;
 }
-#sales section.main div.top div.left div.product img {
-    display: block;
+#brand ul li a img {
     width: 100%;
+    display: block;
 }
 
-#sales section.main div.top div.left div.shop {
-    position: absolute;
-    top: 20px;
-    left: 27px;
+#order {
+    padding-top: 20px;
 }
-#sales section.main div.top div.left div.shop h1 {
-    font-size: 35px;
-    width: 60%;
-    margin-top: 20px;
-}
-#sales section.main div.top div.left div.shop div.price {
-    color: #fff;
-    display: flex;
-    align-items: center;
-    margin-top: 45px;
-    position: absolute;
-    left: 5px;
-}
-#sales section.main div.top div.left div.shop div.price h2 {
-    margin-right: 50px;
-}
-#sales section.main div.top div.left div.shop div.price h3 {
-    font-size: 13px;
-}
-#sales section.main div.top div.left div.shop a.button {
-    position: absolute;
-    bottom: -184px;
-    right: 75%;
-    background: #fff;
-    padding: 18px 34px;
-    color: #8e8e8e;
-}
-#sales section.main div.top div.left div.percentage {
-    position: absolute;
-    text-align: center;
-    top: 24px;
-    right: 37%;
-    background: #fff;
-    border-radius: 60%;
-    padding: 30px;
-}
-#sales section.main div.top div.left div.percentage h5 {
-    color: #000;
-    font-size: 20px;
-    font-weight: 600;
-}
-#sales section.main div.top div.left div.percentage h6 {
-    color: #8e8e8e;
-    text-align: center;
-    font-size: 15px;
-    margin-top: 3px;
-}
-#sales section.main div.top div.right {
-}
-#sales section.main div.top div.right div.right_image {
+#order .first_order {
     width: 100%;
+    display: flex;
 }
-#sales section.main div.top div.right div.right_image img {
+#order .first_order div.left {
+    width: 45%;
+    padding-left: 30px;
+}
+#order .first_order div.left h1 {
+    font-size: 35px;
+    margin-top: 85px;
+    width: 55%;
+    margin-bottom: 25px;
+    font-weight: 500;
+}
+#order .first_order div.left p {
+    width: 64%;
+    color: #8e8e8e;
+    margin-bottom: 60px;
+}
+#order .first_order div.left a.button {
+    background-color: #539d72;
+    color: #badc81;
+    padding: 20px 35px;
+    font-size: 17px;
+}
+#order .first_order div.right {
+    width: 62%;
+}
+#order .first_order div.right img {
     width: 100%;
     display: block;
-}
-#sales section.main div.top div.right div.right_contant {
-    position: absolute;
-    top: 17px;
-    right: 226px;
-}
-#sales section.main div.top div.right div.right_contant h1 {
-    color: #000;
-    font-size: 35px;
-    margin-bottom: 30px;
-}
-#sales section.main div.top div.right div.right_contant small {
-    color: #8e8e8e;
-}
-#sales section.main div.top div.right div.right_contant h4 {
-    color: #8e8e8e;
-    margin-top: 20px;
 }
