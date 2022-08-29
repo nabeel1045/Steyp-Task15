@@ -420,7 +420,7 @@ section.contact div.search a {
 }
 #category div.heading div.left {
     padding: 10px;
-    border-left: 2px solid #000;
+    border-left: 3px solid #000;
 }
 #category div.heading div.left h1 {
     color: #000;
@@ -512,29 +512,31 @@ section.contact div.search a {
 }
 #our_products section.content div.bottom > ul.main > li div.stock {
     position: absolute;
-    top: 0;
+    top: -15px;
     left: 10px;
 }
 #our_products section.content div.bottom > ul.main > li div.stock span {
-    padding: 7px 15px;
-    border-radius: 15px;
+    padding: 13px 15px;
+    border-radius: 30px;
     display: block;
     background: #a6a6a6;
     font-weight: 600;
     color: #fff;
+    font-size: 17px;
 }
 #our_products section.content div.bottom > ul.main > li div.tag {
     position: absolute;
-    top: 0;
+    top: -15px;
     left: 10px;
 }
 #our_products section.content div.bottom > ul.main > li div.tag span {
-    padding: 7px 15px;
-    border-radius: 15px;
+    padding: 13px 25px;
+    border-radius: 30px;
     display: block;
     background: #cc1a1a;
     font-weight: 600;
     color: #fff;
+    font-size: 17px;
 }
 #our_products section.content div.bottom > ul.main > li div.img {
     width: 65%;
@@ -656,8 +658,8 @@ section.contact div.search a {
     font-weight: 700;
 }
 #testimonial section.content div.main div.top p {
-    color: #c5c5c5;
-    font-size: 19px;
+    color: #8e8e8e;
+    font-size: 18px;
     line-height: 1.3em;
 }
 #testimonial section.content div.main div.bottom {
@@ -775,29 +777,31 @@ section.contact div.search a {
 }
 #best_seller section.content div.bottom ul.main > li div.stock {
     position: absolute;
-    top: 0;
+    top: -15px;
     left: 10px;
 }
 #best_seller section.content div.bottom ul.main > li div.stock span {
-    padding: 7px 15px;
-    border-radius: 15px;
+    padding: 13px 15px;
+    border-radius: 30px;
     display: block;
     background: #a6a6a6;
     font-weight: 600;
     color: #fff;
+    font-size: 17px;
 }
 #best_seller section.content div.bottom ul.main > li div.tag {
     position: absolute;
-    top: 0;
+    top: -15px;
     left: 10px;
 }
 #best_seller section.content div.bottom ul.main > li div.tag span {
-    padding: 7px 15px;
-    border-radius: 15px;
+    padding: 13px 25px;
+    border-radius: 30px;
     display: block;
     background: #cc1a1a;
     font-weight: 600;
     color: #fff;
+    font-size: 17px;
 }
 
 #brand {
@@ -821,7 +825,7 @@ section.contact div.search a {
 }
 
 #order {
-    padding-top: 20px;
+    padding-top: 50px;
 }
 #order .first_order {
     width: 100%;
@@ -832,11 +836,11 @@ section.contact div.search a {
     padding-left: 30px;
 }
 #order .first_order div.left h1 {
-    font-size: 35px;
-    margin-top: 85px;
-    width: 55%;
+    font-size: 50px;
+    margin-top: 34px;
+    width: 68%;
     margin-bottom: 25px;
-    font-weight: 500;
+    font-weight: 600;
 }
 #order .first_order div.left p {
     width: 64%;
@@ -858,7 +862,7 @@ section.contact div.search a {
 }
 
 #footer {
-    padding-top: 100px;
+    padding: 100px 0;
 }
 #footer .contant {
     display: flex;
@@ -935,8 +939,8 @@ section.contact div.search a {
 #footer .contant div.middle div.contact_Information h6 {
     margin-bottom: 20px;
 }
-#footer .contant div.middle div.contact_Information h4 a {
-    font-size: 13px:
+#footer .contant div.middle div.contact_Information h4 {
+    font-size: 13px;
 }
 #footer .contant div.middle div.contact_Information h6 a {
     font-size: 12px;
@@ -957,4 +961,100 @@ section.contact div.search a {
 #footer .contant div.right div.payment ul li a {
 }
 #footer .contant div.right div.payment ul li a img {
+}
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width: 1440px){
+    #spotlight_header div.spotlight div.left p {
+        font-size: 16px;
+    }
+    #spotlight_header div.spotlight {
+        padding: 100px 20px 0;
+    }
+    #spotlight_header div.spotlight div.left {
+        background-image: url(../images/Landing-img-1.jpg);
+        background-repeat: no-repeat;
+        background-size: inherit;
+        background-position: center;
+        background-position-x: -359px;
+        background-position-y: 60px;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+       
+        height: 520px;
+    }
+    #spotlight_header div.spotlight div.right h1 {
+       
+        font-size: 50px;
+        width: 80%;
+        left: 34px;
+       
+    }
+    #order .first_order div.left {
+        width: 46%;
+    }
+    #order .first_order div.left p {
+        width: 75%;
+        margin-bottom: 40px;
+    }
+    #order .first_order div.left h1 {
+        width: 90%;
+        margin-bottom: 9px;
+        margin-top: 30px;
+        font-size: 45px;
+    }
+    #order .first_order div.right img {
+        
+        height: 315px;
+    }
+    #order .first_order div.right {
+        width: 50%;
+    }
+    #our_products section.content div.bottom > ul.main > li h3 {
+        font-size: 14px;
+        
+    }
+}
+
+
+@media all and (max-width: 1380px){
+    #spotlight_header div.spotlight div.right h1 {
+        font-size: 48px;
+    }
+    #spotlight_header div.spotlight div.left h2 {
+    
+        font-size: 65px;
+        
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+        height: 507px;
+    }
+    #spotlight_header div.spotlight {
+        padding: 70px 20px 0;
+    }
+    
+    #spotlight_header div.spotlight div.left h3 {
+      
+        font-size: 55px;
+    }
+    #spotlight_header div.spotlight div.left p {
+        width: 50%;
+    }
+
+#testimonial section.content div.main div.top p {
+    
+    font-size: 16px;
+    
+    }
+    #footer .contant div.middle div.footer_product {
+        margin-right: 90px;
+    }
 }
