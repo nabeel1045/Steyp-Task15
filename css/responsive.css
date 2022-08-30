@@ -123,7 +123,6 @@
         font-size: 17px;
     }
 
-
     #our_products {
         padding: 0px;
     }
@@ -141,319 +140,319 @@
         padding: 0;
         height: 250px;
     }
-/* responsive  */
-@media all and (max-width: 1380px) {}
-
-@media all and (max-width: 1280px) {
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 12px 15px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 16px;
+    /* responsive  */
+    @media all and (max-width: 1380px) {
     }
 
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 70%;
-        padding: 12px 15px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 16px;
-    }
-}
+    @media all and (max-width: 1280px) {
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 35%;
+            padding: 12px 15px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 16px;
+        }
 
-@media all and (max-width: 980px) {
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 9px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
-    }
-
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 80%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 70%;
+            padding: 12px 15px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 16px;
+        }
     }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 20px;
-        color: #000;
-        font-weight: 500;
+    @media all and (max-width: 980px) {
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 40%;
+            padding: 10px 9px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 15px;
+        }
+
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 80%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 15px;
+        }
+
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+            font-size: 20px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+            font-size: 20px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        #sale_Offer div.container div.left ul li div.offer_Tag {
+            position: absolute;
+            top: 25px;
+            right: 35px;
+            background-color: #fff;
+            height: 30%;
+            width: 18%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
     }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 20px;
-        color: #000;
-        font-weight: 500;
+    @media all and (max-width: 768px) {
+        #sale_Offer {
+            height: auto;
+            padding: 40px 0px;
+        }
+
+        #sale_Offer div.container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #sale_Offer div.container div.left {
+            width: 100%;
+        }
+
+        #sale_Offer div.container div.right {
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+            font-size: 22px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+            font-size: 22px;
+            color: #000;
+            font-weight: 500;
+        }
     }
 
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 35px;
-        background-color: #fff;
-        height: 30%;
-        width: 18%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-}
+    @media all and (max-width: 640px) {
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 100%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 15px;
+        }
 
-@media all and (max-width: 768px) {
-    #sale_Offer {
-        height: auto;
-        padding: 40px 0px;
-    }
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+            font-size: 18px;
+            color: #000;
+            font-weight: 500;
+        }
 
-    #sale_Offer div.container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+            font-size: 18px;
+            color: #000;
+            font-weight: 500;
+        }
 
-    #sale_Offer div.container div.left {
-        width: 100%;
-    }
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 90%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
 
-    #sale_Offer div.container div.right {
-        margin-top: 10px;
-        width: 100%;
-    }
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 40%;
+            padding: 10px 9px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+            font-size: 20px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+            font-size: 18px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li div.content div.rupees > span {
+            margin-right: 18px;
+        }
+        #sale_Offer div.container div.left ul li div.content div.rupees > small {
+            margin-right: 14px;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+            font-weight: 600;
+            font-size: 18px;
+        }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 22px;
-        color: #000;
-        font-weight: 500;
-    }
+        #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+            font-size: 22px;
+        }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 22px;
-        color: #000;
-        font-weight: 500;
-    }
-}
+        #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+            font-size: 22px;
+        }
 
-@media all and (max-width: 640px) {
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 100%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
-    }
-
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 18px;
-        color: #000;
-        font-weight: 500;
-    }
-
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 18px;
-        color: #000;
-        font-weight: 500;
-    }
-
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 90%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-
-    }
-
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 9px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>span {
-        margin-right: 18px;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>small {
-        margin-right: 14px;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
-        font-weight: 600;
-        font-size: 18px;
+        #sale_Offer div.container div.left ul li div.content > span {
+            font-size: 25px;
+            color: #cb1a1a;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag {
+            position: absolute;
+            top: 25px;
+            right: 35px;
+            background-color: #fff;
+            height: 25%;
+            width: 16%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
     }
 
-    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
-        font-size: 22px;
+    @media all and (max-width: 480px) {
+        #sale_Offer div.container div.left ul li div.content {
+            position: absolute;
+            top: 0px;
+            left: 5px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+            font-size: 20px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+            font-size: 20px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag {
+            position: absolute;
+            top: 25px;
+            right: 5px;
+            background-color: #fff;
+            height: 21%;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+            font-weight: 600;
+            font-size: 15px;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag small {
+            font-size: 10px;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 40%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
+        #sale_Offer div.container div.left ul li {
+            display: inline-block;
+            width: 100%;
+            height: 250px;
+            position: relative;
+        }
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 40%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
+        #sale_Offer div.container div.left ul li {
+            display: inline-block;
+            width: 100%;
+            height: 250px;
+            position: relative;
+            margin: 5px 0px;
+        }
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+            font-size: 24px;
+            color: #000;
+            font-weight: 500;
+        }
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+            font-size: 24px;
+            color: #000;
+            font-weight: 500;
+        }
+        #sale_Offer div.container div.right div.content {
+            position: absolute;
+            top: 15px;
+            left: 25px;
+            height: 30%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
     }
 
-    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
-        font-size: 22px;
+    @media all and (max-width: 360px) {
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+            font-size: 18px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+            font-size: 18px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li div.content div.rupees > span {
+            margin-right: 15px;
+            font-size: 15px;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 35%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 12px;
+        }
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 35%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 12px;
+        }
+        #sale_Offer div.container div.right div.content h4 {
+            font-size: 20px;
+        }
     }
-
-    #sale_Offer div.container div.left ul li div.content>span {
-        font-size: 25px;
-        color: #CB1A1A;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 35px;
-        background-color: #fff;
-        height: 25%;
-        width: 16%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-}
-
-@media all and (max-width: 480px){
-    #sale_Offer div.container div.left ul li div.content {
-        position: absolute;
-        top: 0px;
-        left: 5px;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 5px;
-        background-color: #fff;
-        height: 21%;
-        width: 20%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
-        font-weight: 600;
-        font-size: 15px;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag small {
-        font-size: 10px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li {
-        display: inline-block;
-        width: 100%;
-        height: 250px;
-        position: relative;
-    }
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li {
-        display: inline-block;
-        width: 100%;
-        height: 250px;
-        position: relative;
-        margin: 5px 0px;
-    }
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 24px;
-        color: #000;
-        font-weight: 500;
-    }
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 24px;
-        color: #000;
-        font-weight: 500;
-    }
-    #sale_Offer div.container div.right div.content {
-        position: absolute;
-        top: 15px;
-        left: 25px;
-        height: 30%;
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-}
-
-@media all and (max-width: 360px){
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>span {
-        margin-right: 15px;
-        font-size: 15px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 12px;
-    }
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 12px;
-    }
-    #sale_Offer div.container div.right div.content h4 {
-        font-size: 20px;
-    }
-}
     #our_products section.content div.bottom > ul.main > li h3 {
         font-size: 11px;
     }
@@ -514,319 +513,319 @@
         margin-bottom: 25px;
     }
     #best_seller {
-/* responsive  */
-@media all and (max-width: 1380px) {}
+        /* responsive  */
+        @media all and (max-width: 1380px) {
+        }
 
-@media all and (max-width: 1280px) {
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 12px 15px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 16px;
-    }
+        @media all and (max-width: 1280px) {
+            #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+                text-align: center;
+                width: 35%;
+                padding: 12px 15px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 16px;
+            }
 
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 70%;
-        padding: 12px 15px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 16px;
-    }
-}
+            #sale_Offer div.container div.left ul li div.content > a.button {
+                text-align: center;
+                width: 70%;
+                padding: 12px 15px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 16px;
+            }
+        }
 
-@media all and (max-width: 980px) {
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 9px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
-    }
+        @media all and (max-width: 980px) {
+            #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+                text-align: center;
+                width: 40%;
+                padding: 10px 9px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 15px;
+            }
 
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 80%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
-    }
+            #sale_Offer div.container div.left ul li div.content > a.button {
+                text-align: center;
+                width: 80%;
+                padding: 10px 12px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 15px;
+            }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 20px;
-        color: #000;
-        font-weight: 500;
-    }
+            #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+                font-size: 20px;
+                color: #000;
+                font-weight: 500;
+            }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 20px;
-        color: #000;
-        font-weight: 500;
-    }
+            #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+                font-size: 20px;
+                color: #000;
+                font-weight: 500;
+            }
 
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 35px;
-        background-color: #fff;
-        height: 30%;
-        width: 18%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-}
+            #sale_Offer div.container div.left ul li div.offer_Tag {
+                position: absolute;
+                top: 25px;
+                right: 35px;
+                background-color: #fff;
+                height: 30%;
+                width: 18%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+            }
+        }
 
-@media all and (max-width: 768px) {
-    #sale_Offer {
-        height: auto;
-        padding: 40px 0px;
-    }
+        @media all and (max-width: 768px) {
+            #sale_Offer {
+                height: auto;
+                padding: 40px 0px;
+            }
 
-    #sale_Offer div.container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
+            #sale_Offer div.container {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-direction: column;
+            }
 
-    #sale_Offer div.container div.left {
-        width: 100%;
-    }
+            #sale_Offer div.container div.left {
+                width: 100%;
+            }
 
-    #sale_Offer div.container div.right {
-        margin-top: 10px;
-        width: 100%;
-    }
+            #sale_Offer div.container div.right {
+                margin-top: 10px;
+                width: 100%;
+            }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 22px;
-        color: #000;
-        font-weight: 500;
-    }
+            #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+                font-size: 22px;
+                color: #000;
+                font-weight: 500;
+            }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 22px;
-        color: #000;
-        font-weight: 500;
-    }
-}
+            #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+                font-size: 22px;
+                color: #000;
+                font-weight: 500;
+            }
+        }
 
-@media all and (max-width: 640px) {
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 100%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
-    }
+        @media all and (max-width: 640px) {
+            #sale_Offer div.container div.left ul li div.content > a.button {
+                text-align: center;
+                width: 100%;
+                padding: 10px 12px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 15px;
+            }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 18px;
-        color: #000;
-        font-weight: 500;
-    }
+            #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+                font-size: 18px;
+                color: #000;
+                font-weight: 500;
+            }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 18px;
-        color: #000;
-        font-weight: 500;
-    }
+            #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+                font-size: 18px;
+                color: #000;
+                font-weight: 500;
+            }
 
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 90%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
+            #sale_Offer div.container div.left ul li div.content > a.button {
+                text-align: center;
+                width: 90%;
+                padding: 10px 12px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 14px;
+            }
 
-    }
+            #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+                text-align: center;
+                width: 40%;
+                padding: 10px 9px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 14px;
+            }
+            #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+                font-size: 20px;
+                color: #fff;
+            }
+            #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+                font-size: 18px;
+                color: #fff;
+            }
+            #sale_Offer div.container div.left ul li div.content div.rupees > span {
+                margin-right: 18px;
+            }
+            #sale_Offer div.container div.left ul li div.content div.rupees > small {
+                margin-right: 14px;
+            }
+            #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+                font-weight: 600;
+                font-size: 18px;
+            }
 
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 9px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>span {
-        margin-right: 18px;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>small {
-        margin-right: 14px;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
-        font-weight: 600;
-        font-size: 18px;
-    }
+            #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+                font-size: 22px;
+            }
 
-    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
-        font-size: 22px;
-    }
+            #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+                font-size: 22px;
+            }
 
-    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
-        font-size: 22px;
-    }
+            #sale_Offer div.container div.left ul li div.content > span {
+                font-size: 25px;
+                color: #cb1a1a;
+            }
+            #sale_Offer div.container div.left ul li div.offer_Tag {
+                position: absolute;
+                top: 25px;
+                right: 35px;
+                background-color: #fff;
+                height: 25%;
+                width: 16%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+            }
+        }
 
-    #sale_Offer div.container div.left ul li div.content>span {
-        font-size: 25px;
-        color: #CB1A1A;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 35px;
-        background-color: #fff;
-        height: 25%;
-        width: 16%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-}
+        @media all and (max-width: 480px) {
+            #sale_Offer div.container div.left ul li div.content {
+                position: absolute;
+                top: 0px;
+                left: 5px;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+            #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+                font-size: 20px;
+                color: #fff;
+            }
+            #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+                font-size: 20px;
+                color: #fff;
+            }
+            #sale_Offer div.container div.left ul li div.offer_Tag {
+                position: absolute;
+                top: 25px;
+                right: 5px;
+                background-color: #fff;
+                height: 21%;
+                width: 20%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+            }
+            #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+                font-weight: 600;
+                font-size: 15px;
+            }
+            #sale_Offer div.container div.left ul li div.offer_Tag small {
+                font-size: 10px;
+            }
+            #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+                text-align: center;
+                width: 40%;
+                padding: 10px 12px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 14px;
+            }
+            #sale_Offer div.container div.left ul li {
+                display: inline-block;
+                width: 100%;
+                height: 250px;
+                position: relative;
+            }
+            #sale_Offer div.container div.left ul li div.content > a.button {
+                text-align: center;
+                width: 40%;
+                padding: 10px 12px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 14px;
+            }
+            #sale_Offer div.container div.left ul li {
+                display: inline-block;
+                width: 100%;
+                height: 250px;
+                position: relative;
+                margin: 5px 0px;
+            }
+            #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+                font-size: 24px;
+                color: #000;
+                font-weight: 500;
+            }
+            #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+                font-size: 24px;
+                color: #000;
+                font-weight: 500;
+            }
+            #sale_Offer div.container div.right div.content {
+                position: absolute;
+                top: 15px;
+                left: 25px;
+                height: 30%;
+                width: 60%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+            }
+        }
 
-@media all and (max-width: 480px){
-    #sale_Offer div.container div.left ul li div.content {
-        position: absolute;
-        top: 0px;
-        left: 5px;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 5px;
-        background-color: #fff;
-        height: 21%;
-        width: 20%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
-        font-weight: 600;
-        font-size: 15px;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag small {
-        font-size: 10px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li {
-        display: inline-block;
-        width: 100%;
-        height: 250px;
-        position: relative;
-    }
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li {
-        display: inline-block;
-        width: 100%;
-        height: 250px;
-        position: relative;
-        margin: 5px 0px;
-    }
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 24px;
-        color: #000;
-        font-weight: 500;
-    }
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 24px;
-        color: #000;
-        font-weight: 500;
-    }
-    #sale_Offer div.container div.right div.content {
-        position: absolute;
-        top: 15px;
-        left: 25px;
-        height: 30%;
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-}
-
-@media all and (max-width: 360px){
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>span {
-        margin-right: 15px;
-        font-size: 15px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 12px;
-    }
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 12px;
-    }
-    #sale_Offer div.container div.right div.content h4 {
-        font-size: 20px;
-    }
-}
+        @media all and (max-width: 360px) {
+            #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+                font-size: 18px;
+                color: #fff;
+            }
+            #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+                font-size: 18px;
+                color: #fff;
+            }
+            #sale_Offer div.container div.left ul li div.content div.rupees > span {
+                margin-right: 15px;
+                font-size: 15px;
+            }
+            #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+                text-align: center;
+                width: 35%;
+                padding: 10px 12px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 12px;
+            }
+            #sale_Offer div.container div.left ul li div.content > a.button {
+                text-align: center;
+                width: 35%;
+                padding: 10px 12px;
+                background: #fff;
+                color: #8e8e8e;
+                font-size: 12px;
+            }
+            #sale_Offer div.container div.right div.content h4 {
+                font-size: 20px;
+            }
+        }
         padding: 0;
     }
     #best_seller section.content div.bottom ul.main > li div.tag span {
@@ -986,319 +985,319 @@
     section.contact div.information div {
         margin-right: 3px;
     }
-/* responsive  */
-@media all and (max-width: 1380px) {}
-
-@media all and (max-width: 1280px) {
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 12px 15px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 16px;
+    /* responsive  */
+    @media all and (max-width: 1380px) {
     }
 
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 70%;
-        padding: 12px 15px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 16px;
-    }
-}
+    @media all and (max-width: 1280px) {
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 35%;
+            padding: 12px 15px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 16px;
+        }
 
-@media all and (max-width: 980px) {
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 9px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
-    }
-
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 80%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 70%;
+            padding: 12px 15px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 16px;
+        }
     }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 20px;
-        color: #000;
-        font-weight: 500;
+    @media all and (max-width: 980px) {
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 40%;
+            padding: 10px 9px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 15px;
+        }
+
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 80%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 15px;
+        }
+
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+            font-size: 20px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+            font-size: 20px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        #sale_Offer div.container div.left ul li div.offer_Tag {
+            position: absolute;
+            top: 25px;
+            right: 35px;
+            background-color: #fff;
+            height: 30%;
+            width: 18%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
     }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 20px;
-        color: #000;
-        font-weight: 500;
+    @media all and (max-width: 768px) {
+        #sale_Offer {
+            height: auto;
+            padding: 40px 0px;
+        }
+
+        #sale_Offer div.container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #sale_Offer div.container div.left {
+            width: 100%;
+        }
+
+        #sale_Offer div.container div.right {
+            margin-top: 10px;
+            width: 100%;
+        }
+
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+            font-size: 22px;
+            color: #000;
+            font-weight: 500;
+        }
+
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+            font-size: 22px;
+            color: #000;
+            font-weight: 500;
+        }
     }
 
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 35px;
-        background-color: #fff;
-        height: 30%;
-        width: 18%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-}
+    @media all and (max-width: 640px) {
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 100%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 15px;
+        }
 
-@media all and (max-width: 768px) {
-    #sale_Offer {
-        height: auto;
-        padding: 40px 0px;
-    }
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+            font-size: 18px;
+            color: #000;
+            font-weight: 500;
+        }
 
-    #sale_Offer div.container {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: column;
-    }
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+            font-size: 18px;
+            color: #000;
+            font-weight: 500;
+        }
 
-    #sale_Offer div.container div.left {
-        width: 100%;
-    }
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 90%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
 
-    #sale_Offer div.container div.right {
-        margin-top: 10px;
-        width: 100%;
-    }
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 40%;
+            padding: 10px 9px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+            font-size: 20px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+            font-size: 18px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li div.content div.rupees > span {
+            margin-right: 18px;
+        }
+        #sale_Offer div.container div.left ul li div.content div.rupees > small {
+            margin-right: 14px;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+            font-weight: 600;
+            font-size: 18px;
+        }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 22px;
-        color: #000;
-        font-weight: 500;
-    }
+        #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+            font-size: 22px;
+        }
 
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 22px;
-        color: #000;
-        font-weight: 500;
-    }
-}
+        #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+            font-size: 22px;
+        }
 
-@media all and (max-width: 640px) {
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 100%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 15px;
-    }
-
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 18px;
-        color: #000;
-        font-weight: 500;
-    }
-
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 18px;
-        color: #000;
-        font-weight: 500;
-    }
-
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 90%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-
-    }
-
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 9px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>span {
-        margin-right: 18px;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>small {
-        margin-right: 14px;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
-        font-weight: 600;
-        font-size: 18px;
+        #sale_Offer div.container div.left ul li div.content > span {
+            font-size: 25px;
+            color: #cb1a1a;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag {
+            position: absolute;
+            top: 25px;
+            right: 35px;
+            background-color: #fff;
+            height: 25%;
+            width: 16%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
     }
 
-    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
-        font-size: 22px;
+    @media all and (max-width: 480px) {
+        #sale_Offer div.container div.left ul li div.content {
+            position: absolute;
+            top: 0px;
+            left: 5px;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+            font-size: 20px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+            font-size: 20px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag {
+            position: absolute;
+            top: 25px;
+            right: 5px;
+            background-color: #fff;
+            height: 21%;
+            width: 20%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            border-radius: 50%;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+            font-weight: 600;
+            font-size: 15px;
+        }
+        #sale_Offer div.container div.left ul li div.offer_Tag small {
+            font-size: 10px;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 40%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
+        #sale_Offer div.container div.left ul li {
+            display: inline-block;
+            width: 100%;
+            height: 250px;
+            position: relative;
+        }
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 40%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 14px;
+        }
+        #sale_Offer div.container div.left ul li {
+            display: inline-block;
+            width: 100%;
+            height: 250px;
+            position: relative;
+            margin: 5px 0px;
+        }
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+            font-size: 24px;
+            color: #000;
+            font-weight: 500;
+        }
+        #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+            font-size: 24px;
+            color: #000;
+            font-weight: 500;
+        }
+        #sale_Offer div.container div.right div.content {
+            position: absolute;
+            top: 15px;
+            left: 25px;
+            height: 30%;
+            width: 60%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
     }
 
-    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
-        font-size: 22px;
+    @media all and (max-width: 360px) {
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+            font-size: 18px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+            font-size: 18px;
+            color: #fff;
+        }
+        #sale_Offer div.container div.left ul li div.content div.rupees > span {
+            margin-right: 15px;
+            font-size: 15px;
+        }
+        #sale_Offer div.container div.left ul li:first-child div.content > a.button {
+            text-align: center;
+            width: 35%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 12px;
+        }
+        #sale_Offer div.container div.left ul li div.content > a.button {
+            text-align: center;
+            width: 35%;
+            padding: 10px 12px;
+            background: #fff;
+            color: #8e8e8e;
+            font-size: 12px;
+        }
+        #sale_Offer div.container div.right div.content h4 {
+            font-size: 20px;
+        }
     }
-
-    #sale_Offer div.container div.left ul li div.content>span {
-        font-size: 25px;
-        color: #CB1A1A;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 35px;
-        background-color: #fff;
-        height: 25%;
-        width: 16%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-}
-
-@media all and (max-width: 480px){
-    #sale_Offer div.container div.left ul li div.content {
-        position: absolute;
-        top: 0px;
-        left: 5px;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 20px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag {
-        position: absolute;
-        top: 25px;
-        right: 5px;
-        background-color: #fff;
-        height: 21%;
-        width: 20%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border-radius: 50%;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
-        font-weight: 600;
-        font-size: 15px;
-    }
-    #sale_Offer div.container div.left ul li div.offer_Tag small {
-        font-size: 10px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li {
-        display: inline-block;
-        width: 100%;
-        height: 250px;
-        position: relative;
-    }
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 40%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 14px;
-    }
-    #sale_Offer div.container div.left ul li {
-        display: inline-block;
-        width: 100%;
-        height: 250px;
-        position: relative;
-        margin: 5px 0px;
-    }
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
-        font-size: 24px;
-        color: #000;
-        font-weight: 500;
-    }
-    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
-        font-size: 24px;
-        color: #000;
-        font-weight: 500;
-    }
-    #sale_Offer div.container div.right div.content {
-        position: absolute;
-        top: 15px;
-        left: 25px;
-        height: 30%;
-        width: 60%;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-    }
-}
-
-@media all and (max-width: 360px){
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-        font-size: 18px;
-        color: #fff;
-    }
-    #sale_Offer div.container div.left ul li div.content div.rupees>span {
-        margin-right: 15px;
-        font-size: 15px;
-    }
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 12px;
-    }
-    #sale_Offer div.container div.left ul li div.content>a.button {
-        text-align: center;
-        width: 35%;
-        padding: 10px 12px;
-        background: #fff;
-        color: #8E8E8E;
-        font-size: 12px;
-    }
-    #sale_Offer div.container div.right div.content h4 {
-        font-size: 20px;
-    }
-}
     section.contact div.information div h1 {
         font-size: 13px;
     }
@@ -1466,7 +1465,7 @@
     #brand ul li a {
         width: 87px;
     }
-    #footer .contant{
+    #footer .contant {
         text-align: center;
     }
     #footer .contant div.left h1 {
@@ -1479,13 +1478,12 @@
         font-size: 13px;
     }
     #footer .contant div.middle {
-       
         width: 100%;
     }
-    #footer .contant div.middle div.footer_product{
+    #footer .contant div.middle div.footer_product {
         width: 50%;
     }
-    #footer .contant div.middle div.contact_Information{
+    #footer .contant div.middle div.contact_Information {
         width: 50%;
         margin-left: 0;
     }
@@ -1493,7 +1491,6 @@
         font-size: 13px;
     }
     #footer .contant div.middle div.contact_Information p {
-    
         font-size: 12px;
     }
     #footer .contant div.middle div.footer_product ul li {
@@ -1501,7 +1498,6 @@
     }
     #footer .contant div.left div.copy_right small {
         font-size: 9px;
-      
     }
     #footer .contant div.left div.media ul {
         margin-bottom: 30px;
@@ -1512,9 +1508,8 @@
     #footer .contant div.right div.payment {
         margin-top: 10px;
     }
-
 }
-@media all and (max-width: 768px){
+@media all and (max-width: 768px) {
     #spotlight_header div.contant div.middle {
         display: none;
     }
@@ -1540,7 +1535,7 @@
         flex-wrap: wrap;
         justify-content: center;
     }
-    #spotlight_header div.spotlight div.left{
+    #spotlight_header div.spotlight div.left {
         width: 100%;
     }
     #spotlight_header div.spotlight div.left {
@@ -1588,14 +1583,13 @@
         font-size: 11px;
     }
     #category section.categorys ul {
-       
         justify-content: center;
     }
     #category section.categorys ul li {
         margin-right: 20px;
         text-align: center;
     }
-    #category section.categorys ul li:last-child{
+    #category section.categorys ul li:last-child {
         margin-right: 0;
     }
     #our_products section.content div.top div.left h2 {
@@ -1605,7 +1599,6 @@
         width: 63%;
     }
     #our_products section.content div.bottom > ul.main > li {
-        
         width: 21%;
         margin-right: 20px;
         height: 200px;
@@ -1618,18 +1611,16 @@
         padding: 10px 10px;
         font-size: 10px;
     }
-    #our_products section.content div.bottom > ul.main > li:last-child{
+    #our_products section.content div.bottom > ul.main > li:last-child {
         margin-right: 0;
     }
     #our_products section.content div.bottom ul.main {
-       
         justify-content: center;
     }
     #our_products section.content div.bottom > ul.main > li ul.star li {
         width: 10%;
     }
     #our_products section.content div.bottom > ul.main > li div.img {
-    
         margin: 0px auto 13px;
     }
     #our_products section.content div.bottom > ul.main > li h3 {
@@ -1647,7 +1638,7 @@
     #testimonial section.content div.main div.bottom div.id h5 {
         font-size: 15px;
     }
-    #testimonial section.content div.main div.bottom div.id small{
+    #testimonial section.content div.main div.bottom div.id small {
         font-size: 14px;
     }
     #best_seller section.content div.bottom ul.main > li div.tag span {
@@ -1668,7 +1659,6 @@
         font-size: 9px;
     }
     #shipping section.content ul {
-        
         justify-content: space-evenly;
         flex-wrap: wrap;
     }
@@ -1678,7 +1668,7 @@
     #brand ul li a {
         width: 73px;
     }
-    #order .first_order div.left h1{
+    #order .first_order div.left h1 {
         font-size: 20px;
     }
     #order .first_order div.left {
@@ -1709,59 +1699,181 @@
         display: inline-block;
     }
     #footer .contant div.left h1 {
-
         font-size: 20px;
     }
     #footer .contant div.left div.media ul li {
         margin-right: 14px;
     }
 }
-@media all and (max-width: 640px){
+@media all and (max-width: 640px) {
+    header section.top div.right p {
+        display: none;
+    }
+    header section.top {
+        justify-content: center;
+    }
+    #spotlight_header div.spotlight div.left {
+        background-position-x: -125px;
+    }
+   
+    #spotlight_header div.spotlight div.left h2 {
+        font-size: 35px;
+        margin-bottom: 18px;
+    }
+    #spotlight_header div.spotlight div.left h1 {
+        font-size: 30px;
+    }
+    #spotlight_header div.spotlight div.left {
+        background-position-x: -94px;
+        background-position-y: -21px;
+    }
+    #category div.heading div.right h2 {
+        display: none;
+    }
+
+    #category div.heading {
+        justify-content: center;
+    }
+    #category div.heading div.left h1 {
+        font-size: 18px;
+    }
+    #spotlight_header div.spotlight div.left {
     
+        background: #fff;
+        text-align: center;
+    }
+    #spotlight_header div.spotlight div.left p {
+        width: 100%;
+        font-size: 17px;
+        margin-bottom: 30px;
+    }
+    #spotlight_header div.spotlight div.left a.button {
+        padding: 16px 50px;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    #spotlight_header div.spotlight div.left h3{
+        margin-bottom: 10px;
+    }
+    #spotlight_header div.spotlight div.right {
+        width: 50%;
+    }
+    #spotlight_header div.spotlight div.right h1 {
+        font-size: 23px;
+        top: 7px;
+    }
+    #category section.categorys ul {
+        flex-wrap: wrap;
+    }
+
+    #category section.categorys ul li {
+        margin-bottom: 15px;
+        width: 28%;
+    }
+    #category section.categorys ul li:nth-child(5){
+        margin-bottom: 15px;
+    }
+    #category section.categorys ul li:nth-child(7){
+        margin-bottom: 0;
+    }
+    #category h5{
+        margin-top: 10px;
+    }
+    #our_products section.content div.top div.left h2 {
+        font-size: 18px;
+    }
+    #our_products section.content div.top nav.right{
+        display: none;
+    }
+    #our_products section.content div.top{
+       justify-content: center;
+    }
+    #our_products section.content div.bottom ul.main {
+        justify-content: center;
+        display: flex;
+    }
+    #our_products section.content div.bottom > ul.main > li {
+        width: 40%;
+        margin: 19px;
+        height: 190px;
+    }
+    #our_products section.content div.bottom > ul.main > li:last-child {
+        margin-right: 19px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.tag {
+        top: -23px;
+    }
+    #our_products section.content div.top {
+        margin-bottom: 30px;
+    }
+    #our_products section.content div.bottom > ul.main > li h3 {
+        font-size: 14px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.stock {
+        position: absolute;
+        top: -38px;
+    }
+    #testimonial {
+        padding: 30px 0;
+    }
+    #testimonial section.content div.main div.top div.quotes {
+        width: 13%;
+    }
+    #testimonial section.content div.main div.top h4 {
+        font-size: 16px;
+    }
+    #testimonial section.content div.main {
+        width: 78%;
+    }
+    #testimonial section.content div.main div.top p {
+        font-size: 14px;
+    }
+
+
+
+
 }
 
-
-
-
 /* responsive  */
-@media all and (max-width: 1380px) {}
+@media all and (max-width: 1380px) {
+}
 
 @media all and (max-width: 1280px) {
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+    #sale_Offer div.container div.left ul li:first-child div.content > a.button {
         text-align: center;
         width: 35%;
         padding: 12px 15px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 16px;
     }
 
-    #sale_Offer div.container div.left ul li div.content>a.button {
+    #sale_Offer div.container div.left ul li div.content > a.button {
         text-align: center;
         width: 70%;
         padding: 12px 15px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 16px;
     }
 }
 
 @media all and (max-width: 980px) {
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+    #sale_Offer div.container div.left ul li:first-child div.content > a.button {
         text-align: center;
         width: 40%;
         padding: 10px 9px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 15px;
     }
 
-    #sale_Offer div.container div.left ul li div.content>a.button {
+    #sale_Offer div.container div.left ul li div.content > a.button {
         text-align: center;
         width: 80%;
         padding: 10px 12px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 15px;
     }
 
@@ -1828,12 +1940,12 @@
 }
 
 @media all and (max-width: 640px) {
-    #sale_Offer div.container div.left ul li div.content>a.button {
+    #sale_Offer div.container div.left ul li div.content > a.button {
         text-align: center;
         width: 100%;
         padding: 10px 12px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 15px;
     }
 
@@ -1849,22 +1961,21 @@
         font-weight: 500;
     }
 
-    #sale_Offer div.container div.left ul li div.content>a.button {
+    #sale_Offer div.container div.left ul li div.content > a.button {
         text-align: center;
         width: 90%;
         padding: 10px 12px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 14px;
-
     }
 
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+    #sale_Offer div.container div.left ul li:first-child div.content > a.button {
         text-align: center;
         width: 40%;
         padding: 10px 9px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 14px;
     }
     #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
@@ -1875,10 +1986,10 @@
         font-size: 18px;
         color: #fff;
     }
-    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+    #sale_Offer div.container div.left ul li div.content div.rupees > span {
         margin-right: 18px;
     }
-    #sale_Offer div.container div.left ul li div.content div.rupees>small {
+    #sale_Offer div.container div.left ul li div.content div.rupees > small {
         margin-right: 14px;
     }
     #sale_Offer div.container div.left ul li div.offer_Tag h4 {
@@ -1894,9 +2005,9 @@
         font-size: 22px;
     }
 
-    #sale_Offer div.container div.left ul li div.content>span {
+    #sale_Offer div.container div.left ul li div.content > span {
         font-size: 25px;
-        color: #CB1A1A;
+        color: #cb1a1a;
     }
     #sale_Offer div.container div.left ul li div.offer_Tag {
         position: absolute;
@@ -1913,7 +2024,7 @@
     }
 }
 
-@media all and (max-width: 480px){
+@media all and (max-width: 480px) {
     #sale_Offer div.container div.left ul li div.content {
         position: absolute;
         top: 0px;
@@ -1952,12 +2063,12 @@
     #sale_Offer div.container div.left ul li div.offer_Tag small {
         font-size: 10px;
     }
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+    #sale_Offer div.container div.left ul li:first-child div.content > a.button {
         text-align: center;
         width: 40%;
         padding: 10px 12px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 14px;
     }
     #sale_Offer div.container div.left ul li {
@@ -1966,12 +2077,12 @@
         height: 250px;
         position: relative;
     }
-    #sale_Offer div.container div.left ul li div.content>a.button {
+    #sale_Offer div.container div.left ul li div.content > a.button {
         text-align: center;
         width: 40%;
         padding: 10px 12px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 14px;
     }
     #sale_Offer div.container div.left ul li {
@@ -2003,7 +2114,7 @@
     }
 }
 
-@media all and (max-width: 360px){
+@media all and (max-width: 360px) {
     #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
         font-size: 18px;
         color: #fff;
@@ -2012,24 +2123,24 @@
         font-size: 18px;
         color: #fff;
     }
-    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+    #sale_Offer div.container div.left ul li div.content div.rupees > span {
         margin-right: 15px;
         font-size: 15px;
     }
-    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+    #sale_Offer div.container div.left ul li:first-child div.content > a.button {
         text-align: center;
         width: 35%;
         padding: 10px 12px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 12px;
     }
-    #sale_Offer div.container div.left ul li div.content>a.button {
+    #sale_Offer div.container div.left ul li div.content > a.button {
         text-align: center;
         width: 35%;
         padding: 10px 12px;
         background: #fff;
-        color: #8E8E8E;
+        color: #8e8e8e;
         font-size: 12px;
     }
     #sale_Offer div.container div.right div.content h4 {
