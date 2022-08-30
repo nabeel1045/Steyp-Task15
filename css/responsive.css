@@ -1,0 +1,2038 @@
+@media all and (max-width: 1440px) {
+    #spotlight_header div.spotlight div.left p {
+        font-size: 16px;
+    }
+    #spotlight_header div.spotlight {
+        padding: 100px 20px 0;
+    }
+    #spotlight_header div.spotlight div.left {
+        background-position-x: -359px;
+        background-position-y: 60px;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+        height: 520px;
+    }
+    #spotlight_header div.spotlight div.right h1 {
+        font-size: 50px;
+        width: 80%;
+        left: 34px;
+    }
+    #order .first_order div.left {
+        width: 46%;
+    }
+    #order .first_order div.left p {
+        width: 75%;
+        margin-bottom: 40px;
+    }
+    #order .first_order div.left h1 {
+        width: 90%;
+        margin-bottom: 9px;
+        margin-top: 30px;
+        font-size: 45px;
+    }
+    #order .first_order div.right img {
+        height: 315px;
+    }
+    #order .first_order div.right {
+        width: 50%;
+    }
+    #our_products section.content div.bottom > ul.main > li h3 {
+        font-size: 14px;
+    }
+}
+
+@media all and (max-width: 1380px) {
+    #spotlight_header div.spotlight div.right h1 {
+        font-size: 48px;
+    }
+    #spotlight_header div.spotlight div.left h2 {
+        font-size: 65px;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+        height: 507px;
+    }
+    #spotlight_header div.spotlight {
+        padding: 70px 20px 0;
+    }
+
+    #spotlight_header div.spotlight div.left h3 {
+        font-size: 55px;
+    }
+    #spotlight_header div.spotlight div.left p {
+        width: 50%;
+    }
+
+    #testimonial section.content div.main div.top p {
+        font-size: 16px;
+    }
+    #footer .contant div.middle div.footer_product {
+        margin-right: 90px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    #spotlight_header div.contant div.middle ul {
+        margin-left: 80px;
+    }
+    #spotlight_header div.spotlight div.left h1 {
+        font-size: 45px;
+    }
+    #spotlight_header div.spotlight div.left h2 {
+        font-size: 60px;
+    }
+    #spotlight_header div.spotlight div.left h3 {
+        font-size: 49px;
+        padding-left: 100px;
+    }
+    #spotlight_header div.spotlight div.left h3::before {
+        top: 30px;
+    }
+    #spotlight_header div.spotlight div.left p {
+        width: 60%;
+        margin-bottom: 30px;
+        margin-top: 0;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+        height: 435px;
+    }
+    #spotlight_header div.spotlight div.left a.button {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    #spotlight_header div.spotlight div.right {
+        position: relative;
+        width: 48%;
+    }
+    #spotlight_header div.spotlight div.right h1 {
+        font-size: 43px;
+    }
+    #spotlight_header div.spotlight div.left {
+        padding-top: 30px;
+        background-position-y: 25px;
+    }
+    #category section.categorys {
+        padding-bottom: 50px;
+    }
+    #category div.heading div.left h1 {
+        font-size: 30px;
+    }
+    #category section.categorys ul li a {
+        width: 70px;
+    }
+    #category h5 {
+        font-size: 17px;
+    }
+
+
+    #our_products {
+        padding: 0px;
+    }
+    #our_products section.content div.top {
+        margin-bottom: 60px;
+    }
+    #our_products section.content div.top nav.right {
+        width: 40%;
+    }
+    #our_products section.content div.top div.left h2 {
+        font-size: 30px;
+    }
+
+    #our_products section.content div.bottom > ul.main > li {
+        padding: 0;
+        height: 250px;
+    }
+/* responsive  */
+@media all and (max-width: 1380px) {}
+
+@media all and (max-width: 1280px) {
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 12px 15px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 16px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 70%;
+        padding: 12px 15px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 9px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 80%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background-color: #fff;
+        height: 30%;
+        width: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #sale_Offer {
+        height: auto;
+        padding: 40px 0px;
+    }
+
+    #sale_Offer div.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #sale_Offer div.container div.left {
+        width: 100%;
+    }
+
+    #sale_Offer div.container div.right {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 100%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 90%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+
+    }
+
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 9px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+        margin-right: 18px;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>small {
+        margin-right: 14px;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+        font-size: 22px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+        font-size: 22px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>span {
+        font-size: 25px;
+        color: #CB1A1A;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background-color: #fff;
+        height: 25%;
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 480px){
+    #sale_Offer div.container div.left ul li div.content {
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 5px;
+        background-color: #fff;
+        height: 21%;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag small {
+        font-size: 10px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        position: relative;
+        margin: 5px 0px;
+    }
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    #sale_Offer div.container div.right div.content {
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        height: 30%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width: 360px){
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    #sale_Offer div.container div.right div.content h4 {
+        font-size: 20px;
+    }
+}
+    #our_products section.content div.bottom > ul.main > li h3 {
+        font-size: 11px;
+    }
+
+    #our_products section.content div.bottom > ul.main > li div.tag span {
+        padding: 11px 22px;
+        font-size: 15px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.tag {
+        top: -56px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.stock span {
+        padding: 11px 11px;
+        font-size: 13px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.stock {
+        position: absolute;
+        top: -56px;
+    }
+    #our_products {
+        padding: 0px;
+    }
+    #our_products section.content div.bottom > ul.main > li:nth-child(6) {
+        margin-bottom: 0;
+    }
+    #our_products section.content div.bottom > ul.main > li:nth-child(7) {
+        margin-bottom: 0;
+    }
+    #our_products section.content div.bottom > ul.main > li:nth-child(8) {
+        margin-bottom: 0;
+    }
+    #our_products section.content div.bottom > ul.main > li:nth-child(9) {
+        margin-bottom: 0;
+    }
+    #our_products section.content div.bottom > ul.main > li:nth-child(10) {
+        margin-bottom: 0;
+    }
+
+    #shipping {
+        padding: 0;
+    }
+    #shipping section.content ul li {
+        width: 24%;
+    }
+    #shipping section.content ul li hr.line {
+        display: none;
+    }
+    #testimonial section.content {
+        padding: 0;
+    }
+    #testimonial section.content div.main div.top h4 {
+        font-size: 25px;
+    }
+    #testimonial section.content div.main div.top p {
+        font-size: 14px;
+    }
+    #testimonial section.content div.main div.top {
+        margin-bottom: 25px;
+    }
+    #best_seller {
+/* responsive  */
+@media all and (max-width: 1380px) {}
+
+@media all and (max-width: 1280px) {
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 12px 15px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 16px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 70%;
+        padding: 12px 15px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 9px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 80%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background-color: #fff;
+        height: 30%;
+        width: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #sale_Offer {
+        height: auto;
+        padding: 40px 0px;
+    }
+
+    #sale_Offer div.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #sale_Offer div.container div.left {
+        width: 100%;
+    }
+
+    #sale_Offer div.container div.right {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 100%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 90%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+
+    }
+
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 9px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+        margin-right: 18px;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>small {
+        margin-right: 14px;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+        font-size: 22px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+        font-size: 22px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>span {
+        font-size: 25px;
+        color: #CB1A1A;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background-color: #fff;
+        height: 25%;
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 480px){
+    #sale_Offer div.container div.left ul li div.content {
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 5px;
+        background-color: #fff;
+        height: 21%;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag small {
+        font-size: 10px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        position: relative;
+        margin: 5px 0px;
+    }
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    #sale_Offer div.container div.right div.content {
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        height: 30%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width: 360px){
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    #sale_Offer div.container div.right div.content h4 {
+        font-size: 20px;
+    }
+}
+        padding: 0;
+    }
+    #best_seller section.content div.bottom ul.main > li div.tag span {
+        font-size: 15px;
+        padding: 11px 22px;
+    }
+    #best_seller section.content div.bottom ul.main > li h3 {
+        font-size: 12px;
+    }
+    #best_seller section.content div.bottom ul.main > li div.stock span {
+        padding: 11px 11px;
+        font-size: 13px;
+    }
+    #best_seller section.content div.bottom ul.main > li {
+        height: 250px;
+    }
+    #brand {
+        padding: 0;
+    }
+    #brand ul li a {
+        width: 120px;
+    }
+    #order {
+        padding-top: 30px;
+    }
+    #order .first_order div.left h1 {
+        font-size: 38px;
+    }
+    #order .first_order div.left a.button {
+        padding: 15px 25px;
+        font-size: 16px;
+    }
+    #order .first_order div.left p {
+        width: 78%;
+        margin-bottom: 35px;
+    }
+    #order .first_order div.right img {
+        height: 280px;
+    }
+
+    #footer .contant h2 {
+        font-size: 16px;
+    }
+    #footer .contant div.middle div.footer_product {
+        margin-right: 50px;
+    }
+    #footer .contant div.left div.media ul li {
+        margin-right: 15px;
+    }
+    #footer .contant div.left div.media ul {
+        margin-bottom: 50px;
+    }
+    #footer .contant div.left div.copy_right small {
+        font-size: 10px;
+        margin: 0;
+    }
+    #footer .contant div.middle div.contact_Information {
+        margin-left: 30px;
+    }
+}
+
+@media all and (max-width: 1080px) {
+    #spotlight_header div.spotlight {
+        padding: 30px 0 0;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+        height: 400px;
+    }
+    #spotlight_header div.spotlight div.left {
+        background-position-x: -305px;
+    }
+    #spotlight_header div.spotlight div.right h1 {
+        font-size: 42px;
+    }
+    #spotlight_header div.spotlight div.left h1 {
+        font-size: 40px;
+    }
+    #spotlight_header div.spotlight div.left h2 {
+        font-size: 55px;
+    }
+    #spotlight_header div.spotlight div.left a.button {
+        padding: 11px 20px;
+        font-size: 15px;
+    }
+    #spotlight_header div.spotlight div.left h3 {
+        font-size: 41px;
+    }
+    #spotlight_header div.spotlight div.left h3::before {
+        top: 23px;
+    }
+    #category {
+        padding-top: 50px;
+    }
+    #category section.categorys ul li a {
+        width: 60px;
+    }
+    #category h5 {
+        font-size: 15px;
+    }
+    #testimonial section.content div.main div.bottom div.pic {
+        width: 17%;
+    }
+    #testimonial section.content div.main div.top p {
+        font-size: 13px;
+    }
+    #brand ul li a {
+        width: 100px;
+    }
+    #order .first_order div.left h1 {
+        font-size: 35px;
+    }
+    #order .first_order div.left {
+        padding: 0;
+    }
+    #order .first_order div.left p {
+        width: 84%;
+        margin-bottom: 25px;
+    }
+    #order .first_order div.left a.button {
+        padding: 12px 20px;
+        font-size: 16px;
+    }
+    #footer {
+        padding: 50px 0;
+    }
+    #footer .contant div.middle div.footer_product {
+        margin-right: 10px;
+    }
+    #footer .contant a {
+        font-size: 13px;
+    }
+    #footer .contant a {
+        color: #8e8e8e;
+        font-size: 13px;
+    }
+    #footer .contant div.middle div.contact_Information p {
+        width: 100%;
+        font-size: 13px;
+    }
+    #footer .contant div.left h1 {
+        font-size: 25px;
+    }
+    #footer .contant div.middle div.footer_product ul li {
+        margin: 13px 0;
+    }
+    #order .first_order div.right {
+        width: 63%;
+    }
+}
+@media all and (max-width: 980px) {
+    header section.top div.left ul {
+        font-size: 13px;
+    }
+    header section.top div.right {
+        margin-right: 0;
+    }
+    section.contact div.information div {
+        margin-right: 3px;
+    }
+/* responsive  */
+@media all and (max-width: 1380px) {}
+
+@media all and (max-width: 1280px) {
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 12px 15px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 16px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 70%;
+        padding: 12px 15px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 9px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 80%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background-color: #fff;
+        height: 30%;
+        width: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #sale_Offer {
+        height: auto;
+        padding: 40px 0px;
+    }
+
+    #sale_Offer div.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #sale_Offer div.container div.left {
+        width: 100%;
+    }
+
+    #sale_Offer div.container div.right {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 100%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 90%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+
+    }
+
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 9px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+        margin-right: 18px;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>small {
+        margin-right: 14px;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+        font-size: 22px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+        font-size: 22px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>span {
+        font-size: 25px;
+        color: #CB1A1A;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background-color: #fff;
+        height: 25%;
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 480px){
+    #sale_Offer div.container div.left ul li div.content {
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 5px;
+        background-color: #fff;
+        height: 21%;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag small {
+        font-size: 10px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        position: relative;
+        margin: 5px 0px;
+    }
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    #sale_Offer div.container div.right div.content {
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        height: 30%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width: 360px){
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    #sale_Offer div.container div.right div.content h4 {
+        font-size: 20px;
+    }
+}
+    section.contact div.information div h1 {
+        font-size: 13px;
+    }
+    section.contact div.search a {
+        font-size: 13px;
+    }
+    #spotlight_header {
+        padding-top: 40px;
+    }
+    #spotlight_header div.contant div.middle ul li a {
+        font-size: 13px;
+    }
+    #spotlight_header div.contant div.left h1 a {
+        font-size: 25px;
+    }
+    #spotlight_header div.contant div.middle ul {
+        margin-left: 20px;
+    }
+    #spotlight_header div.spotlight div.left {
+        padding-top: 0px;
+    }
+    #spotlight_header div.spotlight div.left h1 {
+        font-size: 35px;
+    }
+    #spotlight_header div.spotlight div.left h2 {
+        font-size: 45px;
+    }
+    #spotlight_header div.spotlight div.left h3 {
+        font-size: 35px;
+        padding-left: 78px;
+    }
+    #spotlight_header div.spotlight div.left h3::before {
+        width: 22%;
+        top: 20px;
+    }
+    #spotlight_header div.spotlight div.left p {
+        font-size: 15px;
+        width: 80%;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+        height: 270px;
+    }
+    #spotlight_header div.spotlight div.left {
+        background-position-x: -150px;
+        background-position-y: 25px;
+    }
+    #spotlight_header div.spotlight div.right {
+        width: 45%;
+    }
+    #spotlight_header div.spotlight div.right h1 {
+        font-size: 28px;
+    }
+    #category {
+        padding-top: 40px;
+    }
+    #category div.heading div.left {
+        padding: 0;
+    }
+    #category div.heading div.right h2 {
+        font-size: 15px;
+    }
+    #category div.heading div.left h1 {
+        font-size: 25px;
+    }
+    #category section.categorys {
+        padding: 0px 0px 50px 0px;
+    }
+    #category section.categorys ul li a {
+        width: 50px;
+    }
+    #category h5 {
+        font-size: 13px;
+    }
+    #our_products section.content div.top div.left {
+        padding: 0;
+    }
+    #our_products section.content div.top div.left h2 {
+        font-size: 25px;
+    }
+    #our_products section.content div.top nav.right {
+        width: 55%;
+    }
+    #our_products section.content div.top {
+        margin-bottom: 80px;
+    }
+    #our_products section.content div.bottom > ul.main > li {
+        padding: 0;
+        height: 220px;
+        width: 19%;
+    }
+    #our_products section.content div.bottom > ul.main > li span {
+        font-size: 10px;
+    }
+    #our_products section.content div.bottom > ul.main > li h3 {
+        font-size: 12px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.tag span {
+        padding: 8px 15px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.stock span {
+        padding: 10px 5px;
+        font-size: 11px;
+    }
+
+    #shipping section.content ul li {
+        width: 34%;
+    }
+    #shipping section.content ul li div.img {
+        width: 32%;
+        margin-right: 0;
+    }
+    #shipping section.content ul li div.text h5 {
+        font-size: 10px;
+    }
+
+    #testimonial section.content div.main div.top p {
+        font-size: 11px;
+    }
+    #testimonial section.content div.main div.bottom div.pic {
+        width: 20%;
+    }
+    #testimonial {
+        padding: 40px 0;
+    }
+    #best_seller section.content div.top div.left {
+        padding: 0;
+    }
+    #best_seller section.content div.top div.left h2 {
+        font-size: 25px;
+    }
+    #best_seller section.content div.top a.right {
+        font-size: 15px;
+    }
+    #best_seller section.content div.bottom ul.main > li div.tag span {
+        padding: 8px 16px;
+    }
+    #best_seller section.content div.bottom ul.main > li div.stock span {
+        padding: 10px 5px;
+        font-size: 11px;
+    }
+    #best_seller section.content div.bottom ul.main > li span {
+        font-size: 10px;
+    }
+    #brand ul li a {
+        width: 90px;
+    }
+    #order .first_order div.left h1 {
+        width: 96%;
+        font-size: 30px;
+        margin-bottom: 4px;
+        margin-top: 5px;
+    }
+    #order .first_order div.left p {
+        margin-bottom: 20px;
+        width: 100%;
+        font-size: 15px;
+    }
+    #order .first_order div.left a.button {
+        padding: 12px 10px;
+        font-size: 15px;
+    }
+    #order .first_order div.right img {
+        height: 240px;
+    }
+    #brand ul li a {
+        width: 87px;
+    }
+    #footer .contant{
+        text-align: center;
+    }
+    #footer .contant div.left h1 {
+        font-size: 20px;
+    }
+    #footer .contant div.left div.media ul li {
+        margin-right: 10px;
+    }
+    footer .contant h2 {
+        font-size: 13px;
+    }
+    #footer .contant div.middle {
+       
+        width: 100%;
+    }
+    #footer .contant div.middle div.footer_product{
+        width: 50%;
+    }
+    #footer .contant div.middle div.contact_Information{
+        width: 50%;
+        margin-left: 0;
+    }
+    #footer .contant h2 {
+        font-size: 13px;
+    }
+    #footer .contant div.middle div.contact_Information p {
+    
+        font-size: 12px;
+    }
+    #footer .contant div.middle div.footer_product ul li {
+        margin: 9px 0;
+    }
+    #footer .contant div.left div.copy_right small {
+        font-size: 9px;
+      
+    }
+    #footer .contant div.left div.media ul {
+        margin-bottom: 30px;
+    }
+    #footer .contant div.middle div.contact_Information p {
+        margin: 10px 0;
+    }
+    #footer .contant div.right div.payment {
+        margin-top: 10px;
+    }
+
+}
+@media all and (max-width: 768px){
+    #spotlight_header div.contant div.middle {
+        display: none;
+    }
+    section.contact div.information {
+        display: none;
+    }
+    #spotlight_header div.spotlight div.left h2 {
+        font-size: 36px;
+    }
+    #spotlight_header div.spotlight div.left h3 {
+        font-size: 28px;
+        padding-left: 0px;
+    }
+    #spotlight_header div.spotlight div.left h3::before {
+        width: 17%;
+        top: 15px;
+    }
+    #spotlight_header div.spotlight div.left p {
+        font-size: 15px;
+        width: 90%;
+    }
+    #spotlight_header div.spotlight {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #spotlight_header div.spotlight div.left{
+        width: 100%;
+    }
+    #spotlight_header div.spotlight div.left {
+        background-position-x: -5px;
+        background-position-y: 5px;
+        text-align: start;
+        padding-bottom: 50px;
+    }
+    #spotlight_header div.spotlight div.left h3::before {
+        display: none;
+    }
+    #spotlight_header div.spotlight div.left p {
+        width: 60%;
+        margin-bottom: 15px;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+        height: 200px;
+    }
+    #spotlight_header div.spotlight div.right h1 {
+        font-size: 24px;
+        text-align: center;
+        left: 20px;
+        top: 30px;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page {
+        border-radius: 15px;
+        overflow: hidden;
+    }
+    #spotlight_header div.spotlight div.left a.button {
+        padding: 11px 10px;
+    }
+    #category div.heading div.left h1 {
+        font-size: 20px;
+    }
+    #category div.heading div.right h2 {
+        font-size: 13px;
+    }
+    #category div.heading {
+        margin-bottom: 40px;
+    }
+    #category section.categorys ul li a {
+        width: 40px;
+    }
+    #category h5 {
+        font-size: 11px;
+    }
+    #category section.categorys ul {
+       
+        justify-content: center;
+    }
+    #category section.categorys ul li {
+        margin-right: 20px;
+        text-align: center;
+    }
+    #category section.categorys ul li:last-child{
+        margin-right: 0;
+    }
+    #our_products section.content div.top div.left h2 {
+        font-size: 20px;
+    }
+    #our_products section.content div.top nav.right {
+        width: 63%;
+    }
+    #our_products section.content div.bottom > ul.main > li {
+        
+        width: 21%;
+        margin-right: 20px;
+        height: 200px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.tag span {
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    #our_products section.content div.bottom > ul.main > li div.stock span {
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    #our_products section.content div.bottom > ul.main > li:last-child{
+        margin-right: 0;
+    }
+    #our_products section.content div.bottom ul.main {
+       
+        justify-content: center;
+    }
+    #our_products section.content div.bottom > ul.main > li ul.star li {
+        width: 10%;
+    }
+    #our_products section.content div.bottom > ul.main > li div.img {
+    
+        margin: 0px auto 13px;
+    }
+    #our_products section.content div.bottom > ul.main > li h3 {
+        font-size: 15px;
+    }
+    #our_products section.content div.bottom > ul.main > li span {
+        font-size: 12px;
+    }
+    #testimonial section.content div.main div.top h4 {
+        font-size: 20px;
+    }
+    #testimonial section.content div.main div.bottom div.pic {
+        width: 27%;
+    }
+    #testimonial section.content div.main div.bottom div.id h5 {
+        font-size: 15px;
+    }
+    #testimonial section.content div.main div.bottom div.id small{
+        font-size: 14px;
+    }
+    #best_seller section.content div.bottom ul.main > li div.tag span {
+        padding: 5px 13px;
+        font-size: 13px;
+    }
+    #best_seller section.content div.bottom ul.main > li div.stock span {
+        padding: 10px 10px;
+        font-size: 10px;
+    }
+    #best_seller section.content div.bottom ul.main > li ul.star li {
+        width: 10%;
+    }
+    #best_seller section.content div.bottom ul.main > li h3 {
+        font-size: 16px;
+    }
+    #best_seller section.content div.bottom ul.main > li span {
+        font-size: 9px;
+    }
+    #shipping section.content ul {
+        
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    #shipping section.content ul li div.text h5 {
+        font-size: 13px;
+    }
+    #brand ul li a {
+        width: 73px;
+    }
+    #order .first_order div.left h1{
+        font-size: 20px;
+    }
+    #order .first_order div.left {
+        text-align: center;
+    }
+    #order .first_order div.left p {
+        font-size: 14px;
+    }
+    #order .first_order div.left a.button {
+        padding: 15px 40px;
+        font-size: 17px;
+        border-radius: 10px;
+    }
+    #order .first_order div.right img {
+        height: 185px;
+    }
+    #footer {
+        padding: 40px 0;
+    }
+    #footer .contant h2 {
+        font-size: 12px;
+    }
+    #footer .contant div.left h1 {
+        font-size: 18px;
+    }
+    #footer .contant div.left div.media ul li a {
+        width: 15px;
+        display: inline-block;
+    }
+    #footer .contant div.left h1 {
+
+        font-size: 20px;
+    }
+    #footer .contant div.left div.media ul li {
+        margin-right: 14px;
+    }
+}
+@media all and (max-width: 640px){
+    
+}
+
+
+
+
+/* responsive  */
+@media all and (max-width: 1380px) {}
+
+@media all and (max-width: 1280px) {
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 12px 15px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 16px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 70%;
+        padding: 12px 15px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width: 980px) {
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 9px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 80%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 20px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background-color: #fff;
+        height: 30%;
+        width: 18%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 768px) {
+    #sale_Offer {
+        height: auto;
+        padding: 40px 0px;
+    }
+
+    #sale_Offer div.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #sale_Offer div.container div.left {
+        width: 100%;
+    }
+
+    #sale_Offer div.container div.right {
+        margin-top: 10px;
+        width: 100%;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 22px;
+        color: #000;
+        font-weight: 500;
+    }
+}
+
+@media all and (max-width: 640px) {
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 100%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 15px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 18px;
+        color: #000;
+        font-weight: 500;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 90%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+
+    }
+
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 9px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+        margin-right: 18px;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>small {
+        margin-right: 14px;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+        font-weight: 600;
+        font-size: 18px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading h3 {
+        font-size: 22px;
+    }
+
+    #sale_Offer div.container div.left ul li:nth-child(3) div.content div.heading p {
+        font-size: 22px;
+    }
+
+    #sale_Offer div.container div.left ul li div.content>span {
+        font-size: 25px;
+        color: #CB1A1A;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 35px;
+        background-color: #fff;
+        height: 25%;
+        width: 16%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+}
+
+@media all and (max-width: 480px){
+    #sale_Offer div.container div.left ul li div.content {
+        position: absolute;
+        top: 0px;
+        left: 5px;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 20px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag {
+        position: absolute;
+        top: 25px;
+        right: 5px;
+        background-color: #fff;
+        height: 21%;
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag h4 {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    #sale_Offer div.container div.left ul li div.offer_Tag small {
+        font-size: 10px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        position: relative;
+    }
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 40%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 14px;
+    }
+    #sale_Offer div.container div.left ul li {
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        position: relative;
+        margin: 5px 0px;
+    }
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading h3 {
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    #sale_Offer div.container div.left ul li:nth-child(2) div.content div.heading p {
+        font-size: 24px;
+        color: #000;
+        font-weight: 500;
+    }
+    #sale_Offer div.container div.right div.content {
+        position: absolute;
+        top: 15px;
+        left: 25px;
+        height: 30%;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+}
+
+@media all and (max-width: 360px){
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
+        font-size: 18px;
+        color: #fff;
+    }
+    #sale_Offer div.container div.left ul li div.content div.rupees>span {
+        margin-right: 15px;
+        font-size: 15px;
+    }
+    #sale_Offer div.container div.left ul li:first-child div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    #sale_Offer div.container div.left ul li div.content>a.button {
+        text-align: center;
+        width: 35%;
+        padding: 10px 12px;
+        background: #fff;
+        color: #8E8E8E;
+        font-size: 12px;
+    }
+    #sale_Offer div.container div.right div.content h4 {
+        font-size: 20px;
+    }
+}
