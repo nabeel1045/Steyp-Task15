@@ -525,7 +525,7 @@ section.contact div.search a {
 }
 
 #sale_Offer div.container div.left ul li:first-child div.content div.heading h3 {
-    font-size: 22px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -540,7 +540,7 @@ section.contact div.search a {
 }
 
 #sale_Offer div.container div.left ul li:first-child div.content div.heading p {
-    font-size: 22px;
+    font-size: 30px;
     color: #fff;
 }
 
@@ -553,11 +553,12 @@ section.contact div.search a {
 }
 
 #sale_Offer div.container div.left ul li div.content div.rupees > span {
-    margin-right: 30px;
+    margin-right: 20px;
+    font-size: 28px;
 }
 
 #sale_Offer div.container div.left ul li div.content > span {
-    font-size: 32px;
+    font-size: 51px;
     color: #cb1a1a;
 }
 
@@ -568,7 +569,7 @@ section.contact div.search a {
 #sale_Offer div.container div.left ul li div.content > a.button {
     text-align: center;
     width: 60%;
-    padding: 20px 30px;
+    padding: 19px 8px;
     background: #5ca26e;
     color: #fff;
     font-size: 17px;
@@ -577,7 +578,7 @@ section.contact div.search a {
 #sale_Offer div.container div.left ul li:first-child div.content > a.button {
     text-align: center;
     width: 30%;
-    padding: 20px 30px;
+    padding: 20px 45px;
     background: #fff;
     color: #8e8e8e;
     font-size: 17px;
@@ -635,7 +636,7 @@ section.contact div.search a {
 }
 
 #sale_Offer div.container div.right div.content h4 {
-    font-size: 22px;
+    font-size: 29px;
 }
 
 #sale_Offer div.container div.right div.content p {
