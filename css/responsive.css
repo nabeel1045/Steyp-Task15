@@ -1925,6 +1925,10 @@
     #spotlight_header div.spotlight div.left h2 {
         margin-bottom: 0;
     }
+    #spotlight_header div.spotlight div.left {
+      
+        padding-bottom: 38px;
+    }
     #spotlight_header div.spotlight div.left p{
         font-size: 15px;
     }
@@ -1938,9 +1942,9 @@
         font-size: 20px;
         top: 30px;
     }
-    #spotlight_header div.spotlight div.right h1 {
-        font-size: 20px;
-        top: 30px;
+    #spotlight_header div.spotlight div.left a.button {
+        padding: 15px 34px;
+        font-size: 15px;
     }
     #our_products section.content div.top div.left {
         border-left: 0px solid rgb(0, 0, 0);
@@ -2012,6 +2016,9 @@
     #testimonial section.content div.main div.top p {
         font-size: 13px;
     }
+    #order .first_order div.left a.button {
+        padding: 15px 30px;
+    }
     #order .first_order div.left p {
         font-size: 13px;
     }
@@ -2035,23 +2042,31 @@
 }
 @media all and (max-width: 360px){
     #spotlight_header div.spotlight div.left h2 {
-        font-size: 30px;
+        font-size: 35px;
     }
     #spotlight_header div.spotlight div.left h3 {
-        font-size: 25px;
+        font-size: 28px;
     }
     #spotlight_header div.spotlight div.left p {
         font-size: 14px;
     }
     #spotlight_header div.spotlight div.right {
-        width: 62%;
+        width: 80%;
     }
     #spotlight_header div.spotlight div.right h1 {
-        font-size: 19px;
-        top: 9px;
+        font-size: 20px;
+        top: 25px;
     }
     #spotlight_header div.spotlight div.left a.button {
-        padding: 14px 40px;
+        padding: 15px 30px;
+        font-size: 14px;
+    }
+    #spotlight_header div.spotlight div.left {
+        
+        padding-bottom: 35px;
+    }
+    #spotlight_header div.spotlight div.right div.landing_page img {
+        height: 150px;
     }
     #category div.heading div.left {
         
@@ -2133,7 +2148,8 @@
         font-size: 11px;
     }
     #order .first_order div.left a.button {
-        padding: 14px 30px;
+        padding: 13px 16px;
+        font-size: 14px;
     }
     #footer .contant h2 {
         font-size: 14px;
